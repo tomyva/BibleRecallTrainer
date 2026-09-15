@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BibleRecallTrainer.Views.BooksPage" Title="Books &amp; Chapters">
+  <VerticalStackLayout Padding="24" Spacing="16">
+    <Label Text="Books &amp; Chapters" Style="{StaticResource Headline}" HorizontalOptions="Start" HorizontalTextAlignment="Start" />
+    <Label Text="Start with the Phase 1 sample chapter." />
+    <Frame Padding="16"><VerticalStackLayout Spacing="10"><Label Text="Ruth" FontSize="22" FontAttributes="Bold" /><Label Text="Chapter 1 · Available now" /><Button Text="Open Chapter 1" Command="{Binding OpenRuthCommand}" /></VerticalStackLayout></Frame>
+  </VerticalStackLayout>
+</ContentPage>
